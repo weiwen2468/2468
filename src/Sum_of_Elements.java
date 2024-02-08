@@ -24,9 +24,9 @@ public class Sum_of_Elements {
     private static int sumArray (int[] a){
         int sum = 0;
 
-        for(int i=0;i<a.length;i++){
-            System.out.println(a[i]);
-            sum=sum = a[i];
+        for (int j : a) {
+            System.out.println(j);
+            sum = sum + j;
         }
 
         return sum;
